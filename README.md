@@ -4,22 +4,26 @@ Creating a space where developers can quickly find accurate, reliable answers to
 
 # Project Components
 
-* [ER: Requirements Specification](https://gitlab.up.pt/lbaw/lbaw2425/lbaw24141/-/wikis/ER)
+* [ER: Requirements Specification](docs/Requirements.pdf)
 
-* [EBD : Database Specification](https://gitlab.up.pt/lbaw/lbaw2425/lbaw24141/-/wikis/EBD)
+* [EBD : Database Specification](docs/Database.pdf)
 
-* [EAP : Architecture Specification and Prototype](https://gitlab.up.pt/lbaw/lbaw2425/lbaw24141/-/wikis/EAP)
+* [EAP : Architecture Specification and Prototype](docs/Architecture.pdf)
 
-* [PA : Product and Presentation](https://gitlab.up.pt/lbaw/lbaw2425/lbaw24141/-/wikis/PA)
+* [PA : Product and Presentation](docs/Final Product.pdf)
 
 ### Installation
 
-Here is our final product link:
-
-[Final Product](https://gitlab.up.pt/lbaw/lbaw2425/lbaw24141/-/tree/PA?ref_type=tags)
-
-And here the docker command to start the image:
+Here is the docker command to start the image:
 docker run -d --name lbaw24141 -p 8001:80 gitlab.up.pt:5050/lbaw/lbaw2425/lbaw24141
+
+To run locally: 
+
+- docker compose build
+- docker compose up
+- php artisan db:seed
+- php artisan serve
+
 
 ### Usage
 
@@ -47,6 +51,12 @@ docker run -d --name lbaw24141 -p 8001:80 gitlab.up.pt:5050/lbaw/lbaw2425/lbaw24
 Maybe, need to log in to Google, because we signed up with Google in mailtrap website.
 
 With that, can also try log in with google feature.
+
+
+Finally a video to explain the main features of our project:
+
+https://github.com/user-attachments/assets/b79a0bfa-47be-4ca0-9514-67254568ae14
+
 
 
 # Team

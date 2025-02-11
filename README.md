@@ -12,7 +12,7 @@ Creating a space where developers can quickly find accurate, reliable answers to
 
 * [PA : Product and Presentation](docs/FinalProduct.pdf)
 
-### Installation
+## Installation
 
 Here is the docker command to start the image:
 docker run -d --name lbaw24141 -p 8001:80 gitlab.up.pt:5050/lbaw/lbaw2425/lbaw24141
@@ -25,7 +25,7 @@ To run locally:
 - php artisan serve
 
 
-### Usage
+## Usage
 
 #### Administration Credentials
 
@@ -53,10 +53,11 @@ Maybe, need to log in to Google, because we signed up with Google in mailtrap we
 With that, can also try log in with google feature.
 
 
+## Demo
+
 Finally a video to explain the main features of our project:
 
 https://github.com/user-attachments/assets/b79a0bfa-47be-4ca0-9514-67254568ae14
-
 
 
 # Team
